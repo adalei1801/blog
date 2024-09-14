@@ -47,9 +47,15 @@ changeStyleBtn.style.backgroundColor = 'red'
 ## Fonts
 I used Google Fonts to find some that I liked and I choose: 
 
-![Font options](./images/fonts.jpeg)
-
-<p style="font-size: 12px;">Font choices</p>
+<ul>
+<li>Times New Roman</li>
+<li>Courier New</li>
+<li>Playwrite USA Traditional</li>
+<li>Roboto</li>
+<li>Monsterrat</li>
+<li>Oswald</li>
+<li>Bebas Neue</li>
+</ul>
 
 I picked fonts that I thought were fun looking but still legible (Playwrite and Bebas Neue), some fonts I picked because they were recognizable (Times New Roman and Roboto), and others were favorites of mine (Courier New). The process of picking fonts was fun as I got to see the cool fonts that were out there and create a framework for future additions to the playground.
 
@@ -112,4 +118,4 @@ I plan to make other changes in the future like fixing the style buttons (gettin
 
 I found this experience fun and challenging. I am proud of the work I did and I hope I can find new ways to improve it.
 
-Here’s the link if you want try it: <a href="https://adalei1801.github.io/AltText/">https://adalei1801.github.io/AltText/</a>
+**Here’s the link if you want try it:** <a href="https://adalei1801.github.io/AltText/">https://adalei1801.github.io/AltText/</a>
