@@ -1,10 +1,12 @@
+# One For the Bug: A Debugging Experience
+
 ## Introduction
 
 I had my first formal experience debugging code recently. I learned the different tools for debugging code, how these tools can help me, and develop new skills. I found this experience intriguing as I had solved issues with my code but had never formally debugged. 
 
 ## What is debugging?
 
-First off, what is debugging? Debugging is the process of finding issues or errors and fixing them. The term reportedly originated in 1947 when Admiral Grace Hopper (she is an interesting person and you should look her up) and her associates found a moth in the Mark II computer that impeded its function. 
+First off, what is debugging? Debugging is the process of finding issues or errors and fixing them. The term reportedly originated in 1947 when Admiral Grace Hopper and her associates found a moth in the Mark II computer that impeded its function. 
 
 Debugging can be done in many different ways such as going through manually and finding issues, using print statements, researching different errors, externalizing the problem, etc. 
 
@@ -34,11 +36,11 @@ The first button that looks like a pause button (two blue lines) runs the code f
 
 On the left of your screen, you will see the variables in your code. These will change as the program progresses. 
 
-<!--->INSERT PHOTO OF VARIABLE MENU HERE</!--->
+
 
 These are the essential tools to my debugging experience, but there are other areas of Visual Studio Code debugging to explore.
 
-Debugging Challenges
+## Debugging Challenge
 
 For this assignment I had to debug 4 sets of code. I had to run the code to make sure that it made the expected output, identify and explain any issues the program had, and modify the code to ensure it meets its expected output and explain my modifications. 
 
