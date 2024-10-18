@@ -26,7 +26,7 @@ Click the arrow will then open a menu with four options. The choice we want is â
 
 This also opens a small control panel that holds the options for our debugging.
 
-<img src="images/debug_panel.jpeg" alt="menu" width=200px>
+<img src="images/debug_panel.jpeg" alt="debug panel" width=200px>
 
 This panel holds six buttons (the first two will be important for our process) which will help us debug our program.
 
@@ -36,7 +36,7 @@ The first button that looks like a pause button (two blue lines) runs the code f
 
 On the left of your screen, you will see the variables in your code. These will change as the program progresses. 
 
-
+<img src="images/var_panel.png" alt="Variable panel" height=200px>
 
 These are the essential tools to my debugging experience, but there are other areas of Visual Studio Code debugging to explore.
 
