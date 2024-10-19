@@ -11,8 +11,5 @@ I am a senior in high school and I attend the Brooklyn STEAM Center. I am in Ful
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </li>
   {% endfor %}
 </ul>

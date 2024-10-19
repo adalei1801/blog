@@ -1,3 +1,5 @@
+# One for The Bug: A Debugging Experience
+
 ## Introduction
 
 I had my first formal experience debugging code recently. I learned the different tools for debugging code, how these tools can help me, and develop new skills. I found this experience intriguing as I had solved issues with my code but had never formally debugged. 
@@ -33,7 +35,6 @@ Before we use these buttons, we must establish a breakpoint (or the section of c
 The first button that looks like a pause button (two blue lines) runs the code from the breakpoint on and the second button (curved arrow over a dot) will run a line of code every time it is clicked. This allows you to see how the code operates on each line (Each active line will be highlighted yellow and have a small yellow indicator next to the line number). 
 
 On the left of your screen, you will see the variables in your code. These will change as the program progresses. 
-
 
 These are the essential tools to my debugging experience, but there are other areas of Visual Studio Code debugging to explore.
 
