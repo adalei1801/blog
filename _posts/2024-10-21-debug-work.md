@@ -38,7 +38,7 @@ On the left of your screen, you will see the variables in your code. These will 
 
 These are the essential tools to my debugging experience, but there are other areas of Visual Studio Code debugging to explore.
 
-Debugging Challenges
+## Debugging Challenges
 
 For this assignment I had to debug 4 sets of code. I had to run the code to make sure that it made the expected output, identify and explain any issues the program had, and modify the code to ensure it meets its expected output and explain my modifications. 
 
