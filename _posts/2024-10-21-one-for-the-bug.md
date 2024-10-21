@@ -21,12 +21,14 @@ First, you must access the debugging tool.
 This is done by clicking the down arrow next to the run button near the top of the screen.
 
 <img src="/blog/images/vsc_ddmenu.jpeg" alt="VSC dropdown menu" height=500px>
+<p style="font-size: 12px">Dropdown menu in Visual Studio Code that leads to debug tool</p>
 
 Click the arrow will then open a menu with four options. The choice we want is “Python Debugger: Debug Python File.” This takes us to the “Run and Debug” screen on the side bar.
 
 This also opens a small control panel that holds the options for our debugging.
 
 <img src="/blog/images/debug_panel.jpeg" alt="Debug panel" width=500px>
+<p style="font-size: 12px">Visual Studio Code debugging tool panel. Holds buttons for different debugging functions.</p>
 
 This panel holds six buttons (the first two will be important for our process) which will help us debug our program.
 
@@ -37,6 +39,8 @@ The first button that looks like a pause button (two blue lines) runs the code f
 On the left of your screen, you will see the variables in your code. These will change as the program progresses. 
 
 <img src="/blog/images/var_panel.png" alt="Variable panel in VSC" width=500px>
+<p style="font-size: 12px">Visual Studio Code variable panel. Shows variables in the program and how they change as the program runs.</p>
+
 
 These are the essential tools to my debugging experience, but there are other areas of Visual Studio Code debugging to explore.
 
@@ -63,10 +67,13 @@ while True:
         print("Too many attempts")
         break
 ```
+<p style="font-size: 12px">One of the programs I had to debug. It is supposed to allow users to input a password with three tries. Holds several logic errors.</p>
 
 This program was meant to ask the user for the password and give them three attempts to do so. 
 
-I found three issues with the program:
+This program's issues were logic errors (when a program does not run as intended, ie a program that is meant to add numbers subtracts them)
+
+The issues I found were:
 
 <ol>
 <li>The if statement in line 8 did not equal the password and allowed for an incorrect guess to be printed as correct.</li>
@@ -81,7 +88,7 @@ I solved these issues by:
 <li>Setting the if statement condition to when attempts equal three.</li>
 </ol>
 
-These changes allowed the program to run properly and you can see the corrected program below:
+These changes allowed the program to run as stated and you can see the corrected program below:
 
 ```python
 attempts = 0
@@ -103,5 +110,10 @@ while True:
 
 ## Final Thoughts
 
-I found the process of debugging code interesting. I think that it is a useful skill to learn and it is helpful when issues arise in programming. I am curious about how other code editor tools handle debugging and if there are any drastic differences between them. 
+I found the process of debugging code interesting. I think that it is a useful skill to learn and it is helpful when issues arise in programming. I am curious about how other code editor tools handle debugging and if there are any drastic differences between them.
 
+I also wonder how debugging tools may develop in the future to make the process easier. How will these new tools be developed? How widespread will they be? what problems will they solve or what things may become easier?
+
+I imagine that AI could be used to highlight different problems and possible solutions. It could also possibly be used to have more control over what sections of code are run. Maybe, it could be used to optimize the program by working with the purpose of the program internally and suggest edits to improve function. 
+
+I think there is always room to grow and technology is one area where growth is always occuring, and I wonder how debugging will grow in the future.
