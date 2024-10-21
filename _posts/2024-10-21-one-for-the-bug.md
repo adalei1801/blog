@@ -20,7 +20,7 @@ First, you must access the debugging tool.
 
 This is done by clicking the down arrow next to the run button near the top of the screen.
 
-<img src="/blog/images/vscddmenu.jpeg" alt="menu" height=500px>
+<img src="/blog/images/vsc_ddmenu.jpeg" alt="VSC dropdown menu" height=500px>
 
 Click the arrow will then open a menu with four options. The choice we want is “Python Debugger: Debug Python File.” This takes us to the “Run and Debug” screen on the side bar.
 
@@ -36,7 +36,7 @@ The first button that looks like a pause button (two blue lines) runs the code f
 
 On the left of your screen, you will see the variables in your code. These will change as the program progresses. 
 
-<img src="/blog/images/var_panel.jpeg" alt="Variable panel in VSC" width=500px>
+<img src="/blog/images/var_panel.png" alt="Variable panel in VSC" width=500px>
 
 These are the essential tools to my debugging experience, but there are other areas of Visual Studio Code debugging to explore.
 
