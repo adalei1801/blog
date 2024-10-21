@@ -20,7 +20,7 @@ First, you must access the debugging tool.
 
 This is done by clicking the down arrow next to the run button near the top of the screen.
 
-<img src="/blog/images/vsc_ddmenu.jpeg" alt="VSC dropdown menu" height=500px>
+<img src="/blog/images/vsc_ddmenu.jpeg" alt="VSC dropdown menu" width=500px>
 <p style="font-size: 12px">Dropdown menu in Visual Studio Code that leads to debug tool</p>
 
 Click the arrow will then open a menu with four options. The choice we want is “Python Debugger: Debug Python File.” This takes us to the “Run and Debug” screen on the side bar.
