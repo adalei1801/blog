@@ -5,9 +5,9 @@
             # background-color: white;
             # color: black
         }
-
         #ex_heading {
-            border-bottom: 2px;
+            margin-left: 10px;
+            border-bottom: 0.2px solid gray;
         }
     </style>
 
@@ -58,13 +58,32 @@ Headings for sections (or subheadings) of text have 2 hashtags (also with space 
 
 Headings also have divider lines underneath them.
 	
-    <p id="ex_heading">Heading</p>
-
-
+<p id="ex_heading">Heading</p>
 
 To include code in its own box:
 
 ‘’’coding language
+
 [Insert Code Here] 
+
 ‘’’
+
 HTML can be used in markdown files in order to add elements in a particular fashion, i.e. smaller texts for images/code, links, etc.
+
+## Text Styles
+
+In order to bold text put two asterisks (** **) on either side of the text you want to bold without spaces.
+
+** bold ** 
+
+**Link to Markdown Style Guide:** https://www.markdownguide.org/cheat-sheet/
+
+As previously stated, text can also be changed in larger ways by using HTML (specifically the <\p> or paragraph tag).
+
+As text can be changed within the <\p> tag using the style attribute, it can be changed the same way.
+
+## Images
+
+Images must be added using HTML (use <\img> tag) 
+
+The src attribute value should be “/blog/images(or folder images are in)/name of image file” 
