@@ -114,6 +114,6 @@ I found the process of debugging code interesting. I think that it is a useful s
 
 I also wonder how debugging tools may develop in the future to make the process easier. How will these new tools be developed? How widespread will they be? what problems will they solve or what things may become easier?
 
-I imagine that AI could be used to highlight different problems and possible solutions. It could also possibly be used to have more control over what sections of code are run. Maybe, it could be used to optimize the program by working with the purpose of the program internally and suggest edits to improve function. 
+I imagine that AI could be used to highlight different problems, possible solutions, and  apply the soulution itself. It could also possibly be used to have more control over what sections of code are run. Maybe, it could be used to optimize the program by working with the purpose of the program internally and suggest edits to improve function. 
 
-I think there is always room to grow and technology is one area where growth is always occuring, and I wonder how debugging will grow in the future.
+I think there is always room to grow and technology is one area where growth is always occuring, and I wonder how debugging will change in the future.
