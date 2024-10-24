@@ -82,6 +82,8 @@ As previously stated, text can also be changed in larger ways by using HTML (spe
 
 As text can be changed within the <\p> tag using the style attribute, it can be changed the same way.
 
+**Note:** Default font size is 14px or so
+
 ## Images
 
 Images must be added using HTML (use <\img> tag) 
