@@ -7,7 +7,10 @@
     body {
         font-family: "Edu AU VIC WA NT Guides", cursive;
         color: black;
-        background-color: white
+        background-color: white;
+    }
+    p, h2, ul {
+        margin-top: 10px;
     }
 </style>
 
