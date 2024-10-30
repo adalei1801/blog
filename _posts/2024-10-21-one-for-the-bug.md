@@ -23,7 +23,7 @@ This is done by clicking the down arrow next to the run button near the top of t
 <img src="/blog/images/vsc_ddmenu.jpeg" alt="VSC dropdown menu" width=500px>
 <p style="font-size: 12px">Dropdown menu in Visual Studio Code that leads to debug tool</p>
 
-Click the arrow will then open a menu with four options. The choice we want is “Python Debugger: Debug Python File.” This takes us to the “Run and Debug” screen on the side bar.
+Clicking the arrow will then open a menu with four options. The choice we want is “Python Debugger: Debug Python File.” This takes us to the “Run and Debug” screen in the side bar.
 
 This also opens a small control panel that holds the options for our debugging.
 
@@ -47,6 +47,109 @@ These are the essential tools to my debugging experience, but there are other ar
 ## Debugging Challenges
 
 For this assignment I had to debug 4 sets of code. I had to run the code to make sure that it made the expected output, identify and explain any issues the program had, and modify the code to ensure it meets its expected output and explain my modifications. 
+
+The first set of code I debugged was:
+
+```python
+text = "Hello, world, my name is"
+count = 0
+
+for char in text:
+    if char == "":
+       count += 1
+
+print(count)
+```
+
+The purpose of this program was to count how many spaces were in a given string. The only issue in the code was in the if statement as it ran when the string was empty and not for spaces.
+
+I solved this issue by putting a space in the quotation marks.
+
+You can see the corrected program below:
+
+```python
+text = "Hello, world, my name is"
+count = 0
+
+for char in text:
+    if char == " ":
+       count += 1
+
+print(count)
+```
+
+The second program I had to debug can be seen below:
+
+```python
+print("give me a number")
+n = input()
+
+for num in range(1, n):
+    if num % 2 < 0:
+        print(num, "is even.")
+    else:
+        print(num, "is odd.")
+```
+
+This code was meant to determine whether numbers 1 to n were even or odd.
+
+I found three problems with the code:
+
+<ol>
+<li>There was a type error in line 4 because n was a string and was a range argument so the loop could not iterate properly. </li>
+<li>The if statement ran if the remainder of the number divided by 2 was greater than 0 for the number to be even</li>
+<li>The program needed to iterate through the numbers from 1 to the input, and the input number would be excluded.</li>
+</ol>
+
+I solved these issues by:
+
+<ol>
+<li>Make the user input an integer using the int function to allow the loop to iterate.</li>
+<li>Changing the if statement less than sign to an equality sign (==) so if the remainder of the current number divided by 2 was zero the number would be printed as even.</li>
+<li>Adding a "+ 1" after the n in the range function  so when the program ran the loop would iterate the user’s input as well.</li>
+</ol>
+
+The corrected code is below:
+```python
+print("give me a number")
+n = int(input())
+
+for num in range(1, n + 1):
+    if num % 2 == 0:
+        print(num, "is even.")
+    else:
+        print(num, "is odd.")
+```
+
+The third program I had to debug was made to calculated the factorial of a number.
+
+```python
+num = int(input("Enter an integer: "))
+
+if num < -1:
+  print("No negative numbers.")
+else:
+  result = 1
+  for i in range(1, num):
+    result *= i   
+
+  print("Factorial of " + num + "is" + result)
+```
+
+The two issues of the code were:
+
+<ol>
+<li>The range function in the for loop excludes the user input from being iterated which means the factorial cannot be calculated properly as the number used is excluded from calculation.</li>
+<li>the print statement cannot concatenate strings and integers so the sentence will not be printed.</li>
+</ol>
+
+
+I solved these issues by:
+
+<ol>
+<li>Adding a “+ 1” next to the “num” in the range function so the program will iterate through the user input and calculate the factorial properly as the number being excluded is ahead of the input.</li>
+<li>Changing the plus signs in the print statement to commas so the print statement would print the strings and integers next to each other without concatenating them.</li>
+</ol>
 
 Below is the fourth program I had to debug:
 
