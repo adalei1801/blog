@@ -153,42 +153,10 @@ Here is a table that list some heroes:
 
 <img src="/blog/images/hero_chart.jpeg" alt="Spreadsheet charting some heroes whose powers cross categories">
 
-<style>
-        #show {
-            padding: 4px;
-            font-size: 10px;
-        }
+<p style="font-size: 10px">Note: Gray area markings note leeway for intrepretation. Cyborg's powers orignated from the Mother Box in Young Justice. Beast Boy's powers are alien in orgin due to getting Miss Martian's blood to save him in Young Justice. Superboy is a clone of Superman and therefore gets filed under "Alien/Non-human" despite him being born/made on Earth.</p> 
 
-        #text, #hide {
-            display: none;
-            font-size = 10px;
-        }
-        </style>
-
-<button onclick="show()" id="show">Show</button>
-<button onclick="hide()" id="hide">Hide</button>
-
-<p id="text">Note: Gray area markings note leeway for intrepretation. Cyborg's powers orignated from the Mother Box in Young Justice. Beast Boy's powers are alien in orgin due to getting Miss Martian's blood to save him in Young Justice. Superboy is a clone of Superman and therefore gets filed under "Alien/Non-human" despite him being born/made on Earth. (While not in chart) The Scarlet Witch's powers were increased by Strucker's experiments which exposed her to the Mind Stone (alien/off world source).</p>
+<p style="font-size: 10px">(While not marked on chart) The Scarlet Witch's powers were increased by Strucker's experiments which exposed her to the Mind Stone (alien/off world source).</p>
  
-<script>
-let showbtn = document.getElementById('button')
-let hidebtn = document.getElementById('btn')
-let note = document.getElementById('text')
-
-function show() {
-showbtn.style.display = 'none'
-btn.style.display = 'block'
-note.style.display = 'block'
-}
-
-function hide() {
-showbtn.style.display = 'block'
-btn.style.display = 'none'
-note.style.display = 'none'
-}
-</script>
-
-
 ## Conclusion
 
 Super humans get powers in a multitude of ways and these origins shape the stories we see and the character arcs they go on. Stories deal with several themes like lack of belonging, believing in ourselves, what makes a human, etc. These themes help us learn more about the world around us even in an extraordinary setting. No matter what way a superhero gets their powers, their stories inspire us and help us navigate our own world and lives.
