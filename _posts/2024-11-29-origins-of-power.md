@@ -151,6 +151,42 @@ The Scarlet Witch falls into four categories: science experiment, born with, ali
 
 Here is a table that list some heroes: 
 
+<img src="/blog/images/hero_chart.jpeg" alt="Spreadsheet charting some heroes whose powers cross categories">
+
+<style>
+        #show {
+            padding: 4px;
+            font-size: 10px;
+        }
+
+        #text, #hide {
+            display: none;
+            font-size = 10px;
+        }
+        </style>
+
+<button onclick="show()" id="show">Show</button>
+<button onclick="hide()" id="hide">Hide</button>
+
+<p id="text">Note: Gray area markings note leeway for intrepretation. Cyborg's powers orignated from the Mother Box in Young Justice. Beast Boy's powers are alien in orgin due to getting Miss Martian's blood to save him in Young Justice. Superboy is a clone of Superman and therefore gets filed under "Alien/Non-human" despite him being born/made on Earth. (While not in chart) The Scarlet Witch's powers were increased by Strucker's experiments which exposed her to the Mind Stone (alien/off world source).</p>
+ 
+<script>
+let showbtn = document.getElementById('button')
+let hidebtn = document.getElementById('btn')
+let note = document.getElementById('text')
+
+function show() {
+showbtn.style.display = 'none'
+btn.style.display = 'block'
+note.style.display = 'block'
+}
+
+function hide() {
+showbtn.style.display = 'block'
+btn.style.display = 'none'
+note.style.display = 'none'
+}
+</script>
 
 
 ## Conclusion
