@@ -1,6 +1,6 @@
-# Tolerance is Extinction X-Men ‘97 & The Great Replacement Theory
+# Tolerance is Extinction: X-Men ‘97 & The Great Replacement Theory
 
-<p style="font-weight: bold" >Spoilers for “X Men ‘97” & "X-Men: Days of Future Past"</p>
+<p style="font-weight: bold" >Spoilers for “X-Men ‘97” & "X-Men: Days of Future Past"</p>
 
 The revival of the “X-Men: The Animated Series” (1992-1997) “X-Men ‘97” that aired on Disney+ in 2024 covered several topics and themes that the X-Men have always wrestled with. From identity to racial oppression to self advocacy the X-Men have always served as a way to mirror existing racial politics in order to advocate for the oppressed. 
 
