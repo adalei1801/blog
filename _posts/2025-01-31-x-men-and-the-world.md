@@ -43,7 +43,7 @@ The idea that integration may not be the best thing for minority groups is frequ
 
 “X-Men ‘97” continues the X-Men’s long history of portraying racial issues using its heroes and their struggles. There are many links between “Tolerance is Extinction” and real life as this idea covers several perspectives on racial inequality and demonstrates the range of perspectives that has impacted these issues.
 
-<h2 style="text-align: center"> Resources</h2>
+<h2 style="text-align: center">Sources</h2>
 
 <a href="https://www.britannica.com/topic/replacement-theory">Britannica - Replacement Theory</a>
 
@@ -63,4 +63,8 @@ The idea that integration may not be the best thing for minority groups is frequ
 
 <a href="https://www.pbs.org/newshour/show/reflecting-on-the-charleston-church-massacre-one-year-later">PBS - Reflecting on the Charleston church massacre, one year later</a>
 
+<a href="https://archive.is/zT9Sj#selection-1443.113-1443.139
+">The Atlantic [archived] - How White-Supremacist Violence Echoes Other Forms of Terrorism</a>
 
+<a href="https://www.archives.gov/research/african-americans/vote
+">National Archive - Black Americans and the Vote</a>
