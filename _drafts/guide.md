@@ -33,7 +33,7 @@ Empty folders will be erased as Github deals more with files than folder
 
 ## File Naming Rules
 
-Files should be named:
+Files of blog posts should be named:
 - **Date**
 - Year-Month-Day | Ex. 2024-09-13
     - Always include double digits in month and day
