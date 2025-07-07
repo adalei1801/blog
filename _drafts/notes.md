@@ -32,6 +32,8 @@ I will use it for notes
 
 ## Future Posts Ideas
 
+<a href="https://docs.google.com/document/d/1kb0o3qQNXgKlWoGJVNskLsMAPIX3jd-7DuUd8IMGE4c/edit?usp=sharing" Link to Personal Essay Google Doc - Contains post ideas</a>
+
 - Unit test practical portion
     - And other edits made to code
 
